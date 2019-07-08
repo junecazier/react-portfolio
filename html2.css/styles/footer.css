@@ -1,0 +1,81 @@
+/* Footer styles */
+.footer {
+    background-color: #11122b;
+    color: #858585;
+    font-family: "Ubuntu Condensed", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 460px;
+    margin-top: -4px;
+}
+
+.footer > .logo-footer img {
+    width: 180px;
+    height: 100%;
+    filter: brightness(50%);
+    margin-top: 20px;
+}
+
+.footer > .footer-phone-and-hours span {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1em;
+    letter-spacing: 1.5px;
+}
+
+.footer > .footer-phone-and-hours > .just-hours {
+    font-size: .9em;
+    color: #cea135
+}
+
+.footer > .link-wrapper {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 400px;
+}
+
+.footer > .footer-icons {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-content: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    width: 300px;
+    font-size: 2em; 
+}
+
+.footer > .footer-icons a {
+    color: #cbcbcb;
+    transition: 0.5s;   
+}
+
+.footer > .footer-icons a:hover {
+    color: #cea135;   
+}
+
+.footer > .footer-icons > .twitter-icon {
+    color: #cbcbcb;
+    transition: 0.5s;
+}
+
+.footer > .footer-icons > .twitter-icon:hover {
+    color: #cea135
+}
+
+.footer > .footer-icons > .facebook-icon {
+    color: #cbcbcb;
+    transition: 0.5s;
+}
+
+.footer > .footer-icons > .facebook-icon:hover {
+    color: #cea135
+}
+
+.footer > .copyright-wrapper {
+    margin-bottom: 42px;
+    font-size: 1em;
+    color: #858585;
+}

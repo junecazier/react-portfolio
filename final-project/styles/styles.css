@@ -1,0 +1,55 @@
+.navigation-wrapper {
+    height: 2px;
+    background-color: #28282e;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 100px;
+}
+
+/* left column */
+.navigation-wrapper > .left-column > .codepen-logo {
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-wrapper > .left-column > .codepen-logo img {
+    width: 150px;
+    height: 100%;
+}
+
+/* center column */
+.navigation-wrapper > .center-column {
+    font-weight: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.center-column {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* right column */
+.navigation-wrapper > .right-column {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-column > .icon-item {
+    color: #cbcbcb;
+    font-size: 2em;
+}
+
+.right-column > .item {
+    background-color: pink;
+    color: black;
+    padding: 1px 20px;
+    width: 60px;
+    border-radius: 3px;
+}
